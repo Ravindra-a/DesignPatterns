@@ -1,0 +1,15 @@
+E:\Handson\DesignPatterns\Singleton\bin\Debug\Singleton.exe.config
+E:\Handson\DesignPatterns\Singleton\bin\Debug\Singleton.exe
+E:\Handson\DesignPatterns\Singleton\bin\Debug\Singleton.pdb
+E:\Handson\DesignPatterns\Singleton\obj\Debug\Singleton.exe
+E:\Handson\DesignPatterns\Singleton\obj\Debug\Singleton.pdb
+E:\Handson\DesignPatterns\Singleton\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+E:\Handson\DesignPatterns\Singleton\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+E:\Handson\DesignPatterns\Singleton\bin\Debug\Microsoft.Practices.Unity.dll
+E:\Handson\DesignPatterns\Singleton\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.dll
+E:\Handson\DesignPatterns\Singleton\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+E:\Handson\DesignPatterns\Singleton\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+E:\Handson\DesignPatterns\Singleton\bin\Debug\Microsoft.Practices.Unity.xml
+E:\Handson\DesignPatterns\Singleton\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
+E:\Handson\DesignPatterns\Singleton\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.xml
+E:\Handson\DesignPatterns\Singleton\obj\Debug\Singleton.csprojResolveAssemblyReference.cache
