@@ -38,14 +38,10 @@ namespace Singleton
             //}
             #endregion
 
-            //RegisterTypes();
-            //_numberWriter = _dependencyResolver.Container.Resolve<INumberWriter>();
-            //_numberWriter.WriteNumbersToFile(100);
-            //Console.WriteLine("File write done.");
-
-            ChildClass obj = new ChildClass();
-            obj.BaseMethod();
-
+            RegisterTypes();
+            _numberWriter = _dependencyResolver.Container.Resolve<INumberWriter>();
+            _numberWriter.WriteNumbersToFile(100);
+            Console.WriteLine("File write done.");
             Console.ReadKey();
         }
     }
@@ -58,30 +54,6 @@ namespace Singleton
         {
             Console.WriteLine(s);
             return s;
-        }
-    }
-
-    public class BaseClass
-    {
-        //public BaseClass()
-        //{
-        //    Console.WriteLine("base constructor called");
-        //}
-        public virtual void BaseMethod()
-        {
-            Console.WriteLine("Base Method called");
-        }
-    }
-
-    public class ChildClass : BaseClass
-    {
-        //public ChildClass()
-        //{
-        //    Console.WriteLine("child constructor called");
-        //}
-        public new void BaseMethod()
-        {
-            Console.WriteLine("Child Method called");
         }
     }
 }

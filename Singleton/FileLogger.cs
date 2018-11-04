@@ -8,10 +8,14 @@ using System.Threading.Tasks;
 
 namespace Singleton
 {
+    /// <summary>
+    /// Thread safe singleton class
+    /// </summary>
+    /// <seealso cref="Singleton.Contracts.IFileLogger" />
     public class FileLogger : IFileLogger
     {
         private readonly TextWriter _logfile;
-        private const string filePath = @"E:\logfile.txt";
+        private const string filename = @"logfile.txt";
         FileLogger()
         {
             _logfile = GetFileStream();
@@ -46,7 +50,11 @@ namespace Singleton
 
         private TextWriter GetFileStream()
         {
-            return TextWriter.Synchronized(File.AppendText(filePath));
+            var systemPath = System.Environment.
+                             GetFolderPath(
+                                 Environment.SpecialFolder.CommonApplicationData
+                             );
+            return TextWriter.Synchronized(File.AppendText(Path.Combine(systemPath,filename)));
         }
     }
 }
